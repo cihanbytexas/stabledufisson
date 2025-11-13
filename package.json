@@ -1,0 +1,19 @@
+{
+  "name": "huggingface-text2image-api",
+  "version": "1.0.0",
+  "description": "A Vercel-compatible API for text-to-image generation using Hugging Face and fal-ai.",
+  "main": "api/generate.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "vercel dev"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  },
+  "engines": {
+    "node": ">=22.x"
+  },
+  "author": "texastr",
+  "license": "MIT"
+}
